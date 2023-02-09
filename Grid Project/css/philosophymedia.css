@@ -1,0 +1,43 @@
+@media(max-width:500px)
+{
+	.nav{display: none;}
+	.subheader .a{font-size: 19px}
+	.main2{grid-template-columns: 1fr ; padding: 10px}
+	.img1{ height: 10px;width: 80%;margin-top: 10px}
+	.text{}
+	.text2{padding: 0px; font-size: 19px;padding-right: -20px}
+	.img2{padding-top: -130px}
+	.p{width: 80%;margin-top:-10px;margin-left: 10px}
+	.q{display: none;}
+	.main3{grid-template-columns: 1fr;margin-top: 80px}
+	.div5{margin-top: 0px}
+	.div8{margin-top: 0px}
+	.div10{margin-top: 0px}
+	.div12{margin-top: 0px}
+	.main4{grid-template-columns: 1fr;}
+	.main4 .submain{grid-template-columns: 10fr 90fr;margin-right: 20px}
+	.productcard9{display: none;}
+	.productcard10{display: none;}
+	.productcard11{display: none;}
+	.productcard12{display: none;}
+	.main4 .ticket2{margin-top: 40px;margin-left: 20px}
+	.tags2{grid-template-columns: 1fr 1fr 1fr 1fr;padding: 10px;margin-top:-20px }
+	.tags3{grid-template-columns: 1fr 1fr 1fr 1fr;padding: 10px; margin-top: 20px;}
+	.main6{grid-template-columns: 1fr}
+	.job1{grid-template-columns: 1fr}
+	.ourlink{text-align: center;}
+	.job2{text-align: center;padding: 20px;margin-left: -40px}
+	
+	
+
+	
+	
+	
+
+
+/*	.main4 .submain{grid-template-columns: 1fr 1fr}*/
+	
+
+
+
+}

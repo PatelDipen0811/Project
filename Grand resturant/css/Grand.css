@@ -1,0 +1,775 @@
+
+ *{text-decoration:none;margin:0px;padding:0px;box-sizing:border-box;}
+ body{overflow-x: hidden;}
+
+ .subheader
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            background: lightcoral;
+            height: auto;
+            line-height: 30px;
+            color: white;
+        }
+
+
+
+
+.header 
+{
+	
+	height: 600px;
+/*	width: 200px;*/
+	background: url(../images//noodle.jpg);
+	background-size: 100% 100%;
+	background-position: 0px -80px;
+	background-repeat: no-repeat;	
+	display: flex;
+	flex-wrap: wrap;
+/*	position: relative;*/
+
+
+}
+
+  .header .info 
+{
+   right: 140px;
+   position: absolute;
+   word-spacing: 50px;
+   top: 60px;
+   text-decoration: none;
+}
+
+
+
+.header .info5
+{
+  
+   height: 50px;
+   color: black;
+   line-height: 45px;
+   padding: 0px 10px;
+   border: 2px solid white;
+   border-radius: 10px;
+   position: absolute;
+   right: 30px;
+   top: 50px;
+}
+.info .nav
+{
+	display: flex;
+    flex-wrap: wrap;
+}
+.info .nav .menu
+{
+	padding: 10px;
+	list-style: none;
+/*	border: 1px solid;*/
+}
+
+.header .info5:hover
+{
+	background: lightcoral;
+	transition: 1s;
+	border: 2px solid lightcoral;
+}
+
+.info .menu
+{
+	color: black;
+  font-weight:bold ;
+  position: relative;
+}
+
+  .info::after
+  {
+  	
+   content: ;
+  	height: 5px;
+  	color: lightcoral;
+  }
+
+.info a:hover
+{
+	color: lightcoral;
+	
+}
+
+li::after
+		{
+			content:"";
+			position: absolute;
+			top:100%;
+			left: 0;
+			border-bottom: 5px solid gray;
+			width: 0px;
+/*			background: black;*/
+			transition:.7s;
+		}
+ 
+
+		li:hover::after
+		{
+			width: 100%;
+		}
+   .logo
+   {  
+      padding-top: 30px;
+      padding-left: 20px;
+
+
+
+   }
+
+
+
+
+
+
+
+.header .text2
+{
+	color: white;
+/*	position: absolute;*/
+	top: 200px;
+	left: 50px;
+/*	font-family:Sofia;*/
+   font-family: Allura;
+    font-size: 50px;
+    color: lightcoral;
+  }
+
+  .header .text3
+  {
+    color: white;
+
+    top: 280px;
+    left: 50px;
+    font-size: 35px;
+  }
+  .header .text4
+  {
+  	color: white;
+/*  	position: absolute;*/
+  	top: 500px;
+  	left: 50px;
+  }
+
+
+  
+  
+/*   Subheader-END*/
+.img 
+{
+	height: 550px;
+	width: 100%;
+	background: lightblue;
+	top: -80px;
+    display: flex;
+    position: relative; 
+       
+}
+
+ .discover
+{
+   height: 450px;
+   width: 370px;
+   background: red;
+   position: absolute;
+   top: 40px;
+   left: 40px;
+   z-index: 2;
+}
+
+.discover .text5
+{
+ font-family: Allura;
+ text-align: center;
+ color: lightcoral;
+ font-size: 80PX;
+ margin-top: 70px; 
+}
+
+ .discover .text6
+{
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+ .discover .flower
+{
+	color: gray;
+	text-align: center;
+
+}
+.discover .text7
+{
+	text-align:center;
+	margin: 30px;
+
+  
+}
+
+
+.imgdiv
+{
+
+    height: 390px;
+    width: 60%;
+    background: pink;
+    display: flex;
+    position: absolute;
+    left: 230px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+
+.imgdiv .img2
+{
+  
+  background:url(../images//bakedish1.jpg);
+  height: 100%;
+  width: 40%;
+  background-size: 100.7% 100.7%;
+  background-repeat: no-repeat; 
+  transition: .62S;
+  margin-left: 20px;
+  border-radius: 5px ;
+
+   
+}
+
+.img2:hover
+{
+background-size: 107% 107% ;
+background-position-X: -10PX;
+background-positionY: 20PX ; 
+background:; }  
+
+
+.imgdiv .img3
+ {
+
+  background:url(../images//dryfruits.jpg);
+  height: 100%;
+  width: 40%;
+  background-size: 100% 100%;
+  transition: .50s;
+  border-radius: 5px;
+  margin-left: 40px;
+ }
+ .img3:hover
+ {
+ 	 background-size: 107% 107%;
+ }
+
+
+/*   <end end?*/
+
+/* <start>*/
+
+.Section
+{
+   height: 600px;
+   width: 100%;
+   background: lavender;
+   margin-top: -130px;
+
+}
+.imgsection
+{
+    height: auto;
+    display: flex;
+     margin: 50px auto;
+     margin-left: 100px;
+}
+.imgsection2
+{
+    height: auto;
+    display: flex;
+    margin-top:-30px;
+    margin-left: 100px;
+}
+.Section .productcard
+{ 
+    height: 490px;
+   width: 370px;
+  margin-left: -30px;
+  margin-top: -200px;
+   background: white;
+   z-index: 1;
+
+}
+
+.Section .productcard .text8
+{ 
+	font-family: Allura;
+ text-align: center;
+ color: lightcoral;
+ font-size: 50PX;
+
+
+}
+.Section .productcard .text9
+{
+    color: black;
+  text-align: center;
+  margin: 1PX;
+  font-size: 30px;
+}
+
+.Section .productcard .flower2
+{
+   color: gray;
+	text-align: center;
+
+}
+
+.Section .productcard .text10
+{
+   text-align:center;
+	margin: 70px;
+}
+.Section .productcard .text11
+{
+	text-align: center;
+	text-underline-position: ;
+}
+
+
+
+.Section .imgsection .img4
+{
+   background: url(../images//chiles.jpg);
+   height: 230px;
+   width: 350px;
+   background-size: 100% 100%;
+   border-radius: 8px;
+   margin-top: 20px;
+   margin-left: 20px;
+   
+}
+
+.Section .imgsection .img4:hover
+{
+	
+  background-size: 105% 105%;
+  transition: .50s;
+  background-position-x:-10px ;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-position: fixed;  
+}
+.Section .imgsection .img5
+{
+	background: url(../images//top.jpg);
+  height: 230px;
+   width: 350px;
+   background-size: 100% 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.Section .imgsection .img5:hover
+{
+  background-size: 105% 105%;
+  transition: .50s;
+  background-position-x:-10px ;
+  background-position-y: 10px;
+  background-repeat: no-repeat;  
+}
+
+.Section .imgsection2 .img6
+{
+
+	background: url(../images//wesual.jpg);
+  height: 230px;
+  width: 350px;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  z-index: 0px;
+  margin-left: 20px;
+
+  
+}
+.Section .imgsection2 .img6:hover
+{
+	background-size: 105% 105%;
+  transition: .50s;
+  background-position-x:-10px ;
+  background-position-y: 10px;
+  background-repeat: no-repeat; 
+}
+.img7
+{
+   background: url(../images//foodRRM.jpg);
+   height: 230px;
+   width: 350px;
+   background-size: 100% 100%;
+   border-radius: 8px;
+   margin-top: 20px;
+   z-index: 0;
+   padding-right: 20px;
+   margin-left: 20px;
+
+
+   
+}
+.Section .imgsection2 .img7:hover
+
+{
+
+    background-size: 105% 105%;
+  transition: .50s;
+  background-position-x:-10px ;
+  background-position-y: 10px;
+  background-repeat: no-repeat; 
+
+}
+.Section2 
+{
+/*     position: relative;*/
+     height: 460px;
+     width: 100%;
+     background:gray;
+}
+.Section2 .background
+{
+      background:url(../images//bernfresen.jpg);
+      background-attachment: fixed;
+      height: 480px;
+      width: 100%;
+      background-size: 100% 100%;
+      position: static;
+      top: -80px;
+      
+}  
+
+
+
+.Section2 .text12
+{
+  color: lightcoral;
+  font-size: 100px;
+  margin-left: 45%;
+ font-family: Allura;
+ margin-top: -2%; 
+ font-weight: bolder;
+}
+
+.Section2 .text13
+{
+  color: white;
+  font-size: 100px;
+/*  position: absolute;*/
+  margin-left: 37%;
+  margin-top: 3%;
+}
+/*end*/
+
+
+/*start*/
+ .Main2 
+ {
+    height: auto;
+    width: 100%;
+    background: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+ }
+  
+.Main2 .ticket
+{
+   height: 300px;
+   width: 25%;
+   background: lightblue;
+   margin-top: -60px;   
+
+}
+.text14 
+{
+   height: 100px;
+   width: 100%;
+/*   background: yellow;*/
+   padding-top:10px ;
+   box-sizing: border-box;
+   font-weight: bolder;
+   margin-left: 10px;
+   
+
+}
+.price
+{
+    float: right;
+    padding-right: 20px;
+    margin-top: -88px;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.Main2 .text14 .text15
+{
+   margin-left: 0px;
+}
+/*<end>*/
+.Main3
+{
+    height: 400px;
+    width: 100%;
+    background: pink;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Main3 .ticket2
+{
+    height: 300px;
+    width: 25%;
+    background: red;
+}
+
+
+/*<start.*/
+
+/*.main5
+{
+    height: 700px;
+    width: 100%;
+    background: lightgreen;
+}*/
+
+.section3
+{
+    height: auto;
+    width: 100%;
+    background: lightgray;
+}
+.section3 .text34
+{
+    font-family: Allura;
+    color: red; 
+    text-align: center; 
+    font-size: 60px;
+/*    font-weight: bolder;   */
+    padding-top: 70px; 
+}
+.section3 .text35
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: black; 
+    padding-top:-30px ;   
+}
+.section3 .text36
+{
+    text-align: center;
+    color: gray;
+    font-size: 20PX;
+}
+
+
+.main6 
+{
+    height: auto;
+    width: 100%;
+    background: lightgreen; 
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+
+
+.main6 .Starters
+{
+    color: black;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 90px;
+    font-weight: bold;
+}
+
+.main6 .New 
+{
+    height: 40px;
+    width: 450px;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 70px;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 40px;
+}
+
+.main6 .ourchef 
+{
+    width: 448PX;
+    height: 50PX;
+    background: red;
+    margin-top: 0px;
+    border: 1px solid black;
+    margin-left: 70PX;
+    padding-top: 5px;
+}
+
+.main6 .part1 .text44 
+{
+    padding-left: 10px;
+    font-size: 19px;
+
+}
+.main6 .text44 .text45
+{
+    font-size: 12px;
+}
+.main6 .text46
+{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.main6 .text47 
+{
+    margin-top: 4px;
+    font-size: 14px;
+}
+.main6 .text48
+{
+
+}
+.main6 .text49 
+{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.main7 
+{
+    background:url(../images//view.jpg);
+    height:350px;
+    width:100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.main7 .booking
+{
+
+    padding-top: 100px;
+    padding-left: 40%;
+
+
+}
+.main7 .booking .booking1
+{
+/*    height: 8px;*/
+    width: 200px;
+/*    background: lightgreen;*/
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+    color: white;
+/*    padding-top: 20px;*/
+    
+}
+.main7 .booking .call 
+{
+    color: white;   
+    padding-left: 40px;
+    padding-top: 10px; 
+}
+
+/*start*/
+.main8
+{
+    max-width:1210px;
+    padding: 0px 20px;
+    height: auto;
+/*    width: 100%;*/
+    margin: auto;
+    flex-wrap: wrap;
+    background: lightpink; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main8 .map
+{
+    
+    margin-right: -50px;
+    z-index: 0;
+}
+.main8 .address
+{
+    height: 400px;
+    width: 370px;
+    background: lightblue;
+
+     z-index: 1;
+     margin-right: 30px;
+          
+}
+.main8 .address .text50
+{
+    font-family: Allura;
+    font-size: 50px;
+    color: lightcoral;
+}
+.main8 .address .text53 
+{
+    
+}
+/*end*/
+.main9
+{
+    height: auto;
+    width: 100%;
+    background:lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nos1
+{
+    height: 300px;
+    width: 25%;
+    background: black;
+/*    text-align: center;*/
+    padding-top: 60px;
+    font-size: 25px;
+    margin-left:20px ;
+    padding-left: 10px;        
+}
+.main9 .text61 
+{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 0px;
+    color: white;        
+}
+.text62
+{
+    letter-spacing: 10px;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-left: 35px;
+    color: white;
+}
+.memo 
+{
+    height: 300px;
+    width: 18%;
+    background: black;
+    color: white;
+}
+.memo1
+{
+    padding: 5px;
+    padding-top: 20px;
+    color: white;
+}
+

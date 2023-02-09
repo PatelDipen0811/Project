@@ -1,0 +1,38 @@
+@media(max-width:500px)
+{ 
+
+	.subheader{width:100%}
+	.info{display: none;}
+	.info5{display: none;}
+	.discover{top:60%;left: }
+	.img{height: 900px}
+    .imgdiv{top:-30%; left: 10%}
+    .imgdiv {width: 90%; left: -70px; height: 300px;margin-top: 300px}
+    .img3{width: 50%}
+    .imgsection .img4{width:100%}
+    .discover{top: 350px; left:60px;}
+    .Section{height: 1600px}
+
+    .Section .imgsection .img4{width: 100%; margin-left: -70px}
+    .Section .imgsection .img5{width: 100%;margin-top: 260px;margin-left: -380px}
+
+    .Section .imgsection2 .img6{width: 100%; margin-left: -70px}
+    .Section .imgsection2 .img7{width: 100%;margin-top: 280px;margin-left: -380px}
+    .Section .productcard{margin-top: 550px;margin-left: -380px}
+    .Section2 .text12{margin-left: 40%}
+    .Section2 .text13{margin-left: 15%}
+
+    .Main2 .ticket{width: 100%;margin-bottom: 50px}
+    .text14{margin-top: 0px}
+    .Main3{height: 1000px;margin-top: -50px}
+    .Main3 .ticket2{width: 100%;margin-bottom: 2px}
+
+    .section3{margin-top: 150px}
+    .part1{width: 100%;margin-left: -50px}
+
+    .main8{margin-left: -10px}
+    .logo5{margin-left: 150px}
+    .nos1{width: 100%;margin-left: 0}
+
+    .memo {width: 50%}
+}
